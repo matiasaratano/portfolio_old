@@ -191,13 +191,13 @@ section {
 
 .about__skills {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
 }
 
 .skill__title {
   color: var(--grey);
-  grid-column: span 2;
+  grid-column: span 3;
   text-align: left;
   margin: 20px 0;
 }
