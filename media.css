@@ -112,6 +112,10 @@
     background-position: center;
   }
 
+  .portfolio__img {
+    object-fit: contain;
+  }
+
   section {
     padding: 20px 0;
   }
