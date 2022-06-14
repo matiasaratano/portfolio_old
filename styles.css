@@ -205,10 +205,10 @@ section {
 .skill__item {
   font-size: 55px;
   color: var(--grey);
-  padding: 35px;
+  /*padding: 35px;*/
   transition: all 0.3s;
   min-width: 130px;
-  height: 180px;
+  height: 100px;
 }
 
 .skill__item img {
@@ -469,7 +469,7 @@ section {
 .footer {
   color: var(--grey);
   background-color: rgba(245,245,245,0.6);
-  padding: 30px;
+  padding: 12px;
   text-align: center;
   font-size: 14px;
 }

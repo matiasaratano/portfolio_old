@@ -156,9 +156,11 @@
 
 
   .contact__grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-
+  .contact__item p{
+    display: none;
+  }
   .contact__item {
     padding: 18px;
     border-radius: 10px;
