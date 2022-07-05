@@ -63,9 +63,8 @@
     <section id="home" class="home">
       <div class="home__background"></div>
       <picture>
-        <source type="image/webp" srcset="img/foto.jpg" />
-        <source type="image/jpeg" srcset="img/foto.jpg" />
-        <img class="home__profile" alt="picture profile" />
+        
+        <img class="home__profile" alt="picture profile" src="img/foto.jpg" />
       </picture>
       <div class="home__description">
         <span class="home__title--primary">Hi!</span>
@@ -78,13 +77,13 @@
         <h2 class="section__title">About me</h2>
         <div class="about__grid">
           <div class="about__description">
-            <h2>I'm Matias Aratano, Web Developer</h2>
+            <h2>I'm Matias Aratano, Frontend Developer</h2>
             <p>
-              I am a Frontend developer with experience building websites.
+              I'm from Argentina and I'm 31 years old. I'm passionate about technology
             </p>
 
             <p>
-              I am always seeking to improve my skills and continue growing professionally in order to make valuable contributions at the working group I am part of.
+              I am studying NodeJS and SQL to continue improving. I am always seeking to improve my skills and continue growing professionally.
             </p>
             <a
               class="button--cta"
@@ -167,7 +166,7 @@
             <h3>Social Media Integration</h3>
             <p>
               There are a lot of social platforms out there, and you should
-              promote your presence on them on your website
+              promote your presence on them on your website.
             </p>
           </div>
           <div class="services__item">
@@ -175,7 +174,7 @@
             <h3>Performance</h3>
             <p>
               Retaining users is crucial to improving conversions.
-              High-performing sites engage and retain users
+              High-performing sites engage and retain users.
             </p>
           </div>
           <div class="services__item">
@@ -196,13 +195,36 @@
         <div class="portfolio__grid">
           <div class="portfolio__item">
             <picture>
+              <source type="image/jpeg" srcset="img/enestatierra.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">En Esta Tierra</h3>
+              <p class="portfolio__description--text">
+                Tourist departments Website
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://matiasaratano.github.io/enestatierra"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+             
+              </div>
+            </div>
+          </div> 
+          <div class="portfolio__item">
+            <picture>
               <source type="image/jpeg" srcset="img/qrgesell.png" />
               <img class="portfolio__img" alt="portfolio item" />
             </picture>
             <div class="portfolio__description">
               <h3 class="portfolio__description--title">Qr Gesell</h3>
               <p class="portfolio__description--text">
-                Qr gesell Web Page
+                Qr gesell Website
               </p>
               <div class="buttons__container">
                 
@@ -233,7 +255,7 @@
             <div class="portfolio__description">
               <h3 class="portfolio__description--title">Teacher Anto</h3>
               <p class="portfolio__description--text">
-                Anto's Web Page
+                Anto's Website
               </p>
               <div class="buttons__container">
                 
@@ -264,7 +286,7 @@
             <div class="portfolio__description">
               <h3 class="portfolio__description--title">Laberinto</h3>
               <p class="portfolio__description--text">
-                Laberinto Website
+                Tourist departments Website
               </p>
               <div class="buttons__container">
                 <a
@@ -301,35 +323,7 @@
                </div>
               </div>
              </div>
-             <div class="portfolio__item">
-              <picture>
-                <source type="image/jpeg" srcset="img/enestatierra.png" />
-                <img class="portfolio__img" alt="portfolio item" />
-              </picture>
-              <div class="portfolio__description">
-                <h3 class="portfolio__description--title">En Esta Tierra</h3>
-                <p class="portfolio__description--text">
-                  En esta tierra Website
-                </p>
-                <div class="buttons__container">
-                  <a
-                    class="button"
-                    href="https://matiasaratano.github.io/enestatierra"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i class="fas fa-globe-americas"></i> Website
-                  </a>
-               
-                </div>
-              </div>
-            </div> 
-
-          
-          
-          
-          
-            </div>
+          </div>
          </div>
       </div>
     </section>
@@ -337,7 +331,7 @@
       <div class="container">
         <h2 class="section__title">Contact</h2>
         <h3 class="section__subtitle">
-          Contact me if you want us to work together
+          These are my social networks, contact me if you want us to work together
         </h3>
         <div class="contact__grid">
           <a
@@ -348,7 +342,7 @@
             <div class="contact__item">
 
               <i class="far fa-envelope"></i>
-              <p>Mail Me</p>
+              
             </div>
           </a>
           <a
@@ -358,7 +352,7 @@
           >
             <div class="contact__item">
               <i class="fab fa-github"></i>
-              <p>Follow Me</p>
+              
             </div>
           </a>
           <a
@@ -368,7 +362,7 @@
           >
             <div class="contact__item">
               <i class="fab fa-twitter"></i>
-              <p>Follow Me</p>
+              
             </div>
           </a>
           <a
@@ -378,7 +372,7 @@
           >
             <div class="contact__item">
               <i class="fab fa-linkedin-in"></i>
-              <p>Contact Me</p>
+            
             </div>
           </a>
         </div>
