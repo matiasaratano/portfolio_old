@@ -155,12 +155,15 @@ section {
   font-size: 30px;
   margin-bottom: 30px;
   display: flex;
+  justify-content: center;
 }
 
 .section__subtitle {
   color: var(--grey);
   text-align: start;
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .about__grid {
@@ -170,7 +173,7 @@ section {
 }
 
 .about__description {
-  text-align: left;
+  text-align: center;
   color: var(--grey);
   padding-right: 80px;
   line-height: 40px;
@@ -198,7 +201,7 @@ section {
 .skill__title {
   color: var(--grey);
   grid-column: span 3;
-  text-align: left;
+  text-align: center;
   margin: 20px 0;
 }
 
