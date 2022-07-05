@@ -111,7 +111,11 @@
     background-size: inherit;
     background-position: center;
   }
-
+ 
+  .navbar{
+    font-size: 0.8em;
+  }
+  
   .portfolio__img {
     object-fit: contain;
   }
@@ -125,16 +129,23 @@
   }
 
   .home__title {
-    font-size: 30px;
+    font-size: 2em;
   }
 
   .home__title--primary,
   .home__title--secondary {
-    font-size: 25px;
+    font-size: 1.3em;
+  }
+
+  .section__title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 0;
   }
 
   .skill__title {
     grid-column: span 3;
+    font-size: 1.3em;
   }
 
   .about__skills {
@@ -154,6 +165,10 @@
     gap: 20px;
   }
 
+  .about__description h2{
+    font-size: 1.3em;
+
+  }
 
   .contact__grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -166,4 +181,8 @@
     border-radius: 10px;
     transition: all 0.3s;
   }
+  .section__subtitle{
+    font-size: 1em;
+  }
+
 }
