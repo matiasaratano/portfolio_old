@@ -51,7 +51,7 @@
 
   .home__title--primary,
   .home__title--secondary {
-    font-size: 35px;
+    font-size: 1.5em;
   }
 
   .section__title {
@@ -118,6 +118,12 @@
   
   .portfolio__img {
     object-fit: contain;
+  }
+
+  .home__description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 
   section {
