@@ -105,6 +105,10 @@
 
 @media (max-width: 767px) {
 
+  .home__background {
+    background-attachment: initial;
+  }
+
   .navbar{
     font-size: 0.8em;
   }
