@@ -107,10 +107,7 @@
 
   .home__background {
     background-image: url(img/codigo5.jpeg);
-    background-attachment: fixed;
-    background-size: inherit;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: auto;
   }
  
   .navbar{
