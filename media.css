@@ -110,6 +110,7 @@
     background-attachment: fixed;
     background-size: inherit;
     background-position: center;
+    background-repeat: no-repeat;
   }
  
   .navbar{
