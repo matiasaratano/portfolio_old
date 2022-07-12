@@ -153,6 +153,7 @@
 
   .about__skills {
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
   }
 
   .skill__item {

@@ -169,14 +169,13 @@ section {
 
 .about__grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
 .about__description {
   text-align: center;
   color: var(--grey);
-  padding-right: 80px;
+  
   line-height: 40px;
 }
 
@@ -195,13 +194,13 @@ section {
 
 .about__skills {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
 }
 
 .skill__title {
   color: var(--grey);
-  grid-column: span 3;
+  grid-column: span 4;
   text-align: center;
   margin: 20px 0;
 }
@@ -213,6 +212,10 @@ section {
   transition: all 0.3s;
   min-width: 130px;
   height: 100px;
+}
+
+#git{
+    font-size: 0.7em;
 }
 
 .skill__item img {
@@ -434,7 +437,7 @@ section {
 }
 
 .fa-github:before{
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .fa-envelope:before{
