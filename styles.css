@@ -214,6 +214,7 @@ section {
   transition: all 0.3s;
   min-width: 130px;
   height: 100px;
+  margin-top: 25px;
 }
 
 #git {
